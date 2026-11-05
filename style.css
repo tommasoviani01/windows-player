@@ -90,3 +90,15 @@
 .footer p {
     align-items: center;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-inline: 30px;
+  }
+  .footer span {
+    display: block;
+  }
+}
